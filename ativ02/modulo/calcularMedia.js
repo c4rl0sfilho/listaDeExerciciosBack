@@ -66,3 +66,7 @@ function gerarRelatorio(nomeAluno, nomeCurso, nomeDisciplina,statusExame, nomePr
     console.log(`Média final do Exame: ${statusExame}`)
 
 }
+module.exports = {
+    gerarMedia,
+    gerarRelatorio
+}
